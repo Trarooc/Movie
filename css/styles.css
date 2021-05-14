@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    color: white;
+}
+.row{
+    display:flex ;
+    /*flex-direction: column;*/
+    background-color: rgb(100, 99, 99);
+    width: 44%;
+}
+.col{
+    width:23% ;        /*chia cột, 3 cột: 100 chia 3 = 33.33%*/
+    margin: 6px;
+    border: 2px solid rgb(15, 15, 15);
+    background-color: rgb(32, 32, 32);
+    
+}
+img{
+    width: 100%; /*do ảnh đang bị chồng lên nhau*/
+    height: 200px;
+    
+}
+.content{
+    font-size: 0.7rem;
+    padding: 6px;
+}
+h3{
+    margin: 4px;
+    color:#53ccec;
+}
+h4{
+    color: white;
+    margin: 4px;
+}
+h5{
+    color: rgb(112, 112, 110);
+    margin: 4px;
+}
+h1{
+   
+    color: goldenrod;
+}
+.between{
+    justify-content: space-between;
+    padding: 6px;
+}
+p :last-child{
+    margin: 0;
+}
